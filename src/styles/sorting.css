@@ -1,0 +1,119 @@
+/* modal backround */
+#Container-blur {
+  position: relative;
+  transition: 600ms;
+}
+.active {
+  filter: blur(3.5px);
+}
+
+.sorting-continer {
+  margin: 10px auto;
+  max-width: 938px;
+  padding: 10px;
+}
+.Btn-Wrap {
+    width: 1000px;
+    margin-left: -70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    /* border-radius: 10px;
+    padding: 25px; */
+}
+#st {
+  background-color: #3498db;
+  color: white;
+}
+#st:hover{
+  background-color:rgb(122, 126, 126);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .Btn-Wrap {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-left: 10px;
+  }
+  .sorting-continer {
+    margin: 5px;
+  }
+}
+.st-speed-range {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapperBar {
+  display: flex;
+  align-items: flex-end;
+  height: 480px;
+  width: 1200px;
+  margin-left: -125px;
+  justify-content: center;
+}
+.bar {
+  border: 1px solid rgb(228, 242, 250);
+  background-color: #3498db;
+}
+
+/* Add padding and border radius to buttons */
+.button-4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 30px;
+    background-color: rgb(222, 216, 216);
+    margin-right: 15px;
+    padding: 5px 30px; /* Adjust padding as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+}
+.button-4:hover {
+    background-color: rgb(57, 158, 225);
+    color: white;
+}
+.st-speed-range-lavel {
+    margin-top: 5px;
+    margin-right: 2px;
+}
+label {
+    margin-top: -30px;
+    font-size: 16px;
+}
+
+/* Style the "Select algorithm" text in the select button */
+.my-drop-down {
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    padding: 0px 7px; /* Adjust padding as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    background-color: rgb(222, 216, 216);
+    border: 1px solid #524f4f; /* Border style */
+}
+
+.my-drop-down:hover {
+    background-color: rgb(52, 152, 219);
+    color: white;
+}
+
+/* Style the select options (dropdown list) */
+.my-drop-down option {
+    background-color: #fff; /* Background color for options */
+    color: #333; /* Text color for options */
+}
+
+/* Optional: Style the label for better alignment */
+.sorting-label {
+    margin-top: 0px;
+    margin-right: 10px; /* Add some space between label and select */
+}
